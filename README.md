@@ -61,13 +61,15 @@ The dataset contains six waste categories:
 
 ## Test Image
 
-![Test Image](image.webp)
-
----
+<p align="center">
+  <img src="image.webp" width="350">
+</p>
 
 ## Prediction Result
 
-![Prediction Result](output.jpg)
+<p align="center">
+  <img src="output.jpg" width="500">
+</p>
 
 The model successfully predicted the uploaded image as:
 
