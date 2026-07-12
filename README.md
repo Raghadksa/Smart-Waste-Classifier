@@ -1,24 +1,22 @@
 # Smart Waste Classifier
 
+An image recognition project developed using **Google Teachable Machine**, **TensorFlow Keras**, and **Python** to classify different types of waste.
+
+---
+
 ## Project Overview
 
-This project demonstrates an image recognition model developed using **Google Teachable Machine** and **TensorFlow Keras** to classify different types of waste.
-
-The model was trained using the **TrashNet** dataset and tested using a Python script in **Google Colab**.
+This project demonstrates the complete workflow of building an image classification model. The model was trained using the **TrashNet** dataset, exported in **TensorFlow Keras (.h5)** format, and tested using a Python script in **Google Colab**.
 
 ---
 
 ## Dataset
 
-**Dataset Name:** TrashNet
+- **Dataset:** TrashNet
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/feyzazkefe/trashnet
 
-**Source:** Kaggle
-
-https://www.kaggle.com/datasets/feyzazkefe/trashnet
-
----
-
-## Waste Classes
+The dataset contains six waste categories:
 
 - Cardboard
 - Glass
@@ -29,12 +27,24 @@ https://www.kaggle.com/datasets/feyzazkefe/trashnet
 
 ---
 
-## Tools and Technologies
+## Technologies Used
 
 - Google Teachable Machine
 - TensorFlow Keras
 - Python
 - Google Colab
+
+---
+
+## Project Workflow
+
+1. Downloaded the TrashNet dataset from Kaggle.
+2. Uploaded the images to Google Teachable Machine.
+3. Trained the image classification model.
+4. Exported the model in TensorFlow Keras format.
+5. Loaded the model using Python.
+6. Tested the model with a new image.
+7. Displayed the predicted class and confidence score.
 
 ---
 
@@ -45,17 +55,24 @@ https://www.kaggle.com/datasets/feyzazkefe/trashnet
 - `labels.txt` – Class labels
 - `image.webp` – Test image
 - `output.jpg` – Prediction result
-- `Smart_Waste_Classifier_Project_Report.pdf` – Project report
+- `Smart_Waste_Classifier_Project_Report.pdf` – Project documentation
 
 ---
 
-## Model Output
+## Test Image
 
-The model successfully classified the test image as:
+![Test Image](image.webp)
 
-**Cardboard**
+---
 
-**Confidence Score:** 99.98%
+## Prediction Result
+
+![Prediction Result](output.jpg)
+
+The model successfully predicted the uploaded image as:
+
+- **Predicted Class:** Cardboard
+- **Confidence Score:** **99.98%**
 
 ---
 
